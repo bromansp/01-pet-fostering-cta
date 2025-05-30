@@ -1,0 +1,120 @@
+/* Use a modern, easy-to-read font */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e6f7fa; /* Light teal background for calmness */
+}
+
+/* Style the CTA banner */
+.cta-banner {
+  /* Set a background image for the banner */
+  background-image: url('img/cta-bg.jpg');
+  background-size: cover; /* Make the image cover the whole section */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-color: rgba(33, 150, 182, 0.85); /* Add a blue-teal overlay with some transparency */
+  color: #ffffff; /* White text for contrast */
+  padding: 120px 20px 60px 20px; /* Make the section taller by increasing top padding */
+  text-align: center;
+  /* Blend the overlay color with the image to make text easier to read */
+  background-blend-mode: multiply;
+}
+
+/* Large main heading */
+.cta-banner h1 {
+  font-size: 3.5em;
+  margin-bottom: 35px; /* Increased space below heading */
+  margin-top: 0; /* Remove default top margin */
+}
+
+/* Short description */
+.cta-banner p {
+  font-size: 1.2em;
+  margin-bottom: 40px; /* Increased space below description */
+  margin-top: 0; /* Remove default top margin */
+}
+
+/* Eye-catching CTA button */
+.cta-button {
+  display: inline-block;
+  background-color: #2ee6d6; /* Bright teal for attention */
+  color: #1a3a4a; /* Dark blue text for readability */
+  padding: 15px 35px;
+  text-decoration: none;
+  font-size: 1.1em;
+  border-radius: 5px; /* Slightly rounded corners */
+  font-weight: bold;
+  /* Add a simple hover effect */
+}
+
+.cta-button:hover {
+  background-color: #1ad1c1; /* Slightly darker teal on hover */
+}
+
+/* Simple site header style */
+.site-name {
+  background-color: #1a3a4a; /* Dark blue for contrast */
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+  padding: 18px 0;
+  font-size: 1.7em;
+  letter-spacing: 2px;
+}
+
+/* Info section below the banner */
+.info-section {
+  max-width: 1500px; /* Limit the width for better readability */
+  margin: 40px auto; /* Center the section on the page */
+  text-align: center; /* Center text for beginners */
+}
+
+/* Make the image and text appear side by side using basic CSS */
+.info-image {
+  width: 60%; /* Each column takes about half the space */
+  max-width: 500px;
+  vertical-align: top;
+  display: inline-block;
+  margin-right: 2%;
+  border-radius: 8px; /* Slightly rounded corners for a friendly look */
+}
+
+/* Info text column */
+.info-text {
+  width: 60%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left; /* Align text to the left for easier reading */
+}
+
+/* Make sure the body takes up the full height of the page */
+html, body {
+  height: 100%;
+}
+
+/* Use a simple trick to push the footer to the bottom */
+body {
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 70px; /* Space for the footer */
+  box-sizing: border-box;
+}
+
+/* Footer styles for beginners */
+footer {
+  background-color: #1a3a4a;
+  color: white;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 1.3em; /* Make the footer text larger */
+  padding: 30px 0;   /* More padding for a bigger footer */
+  box-sizing: border-box;
+}
+
+footer p {
+  margin: 0;
+}
